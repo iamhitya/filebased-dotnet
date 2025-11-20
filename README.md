@@ -47,7 +47,7 @@ public sealed class Product
 ```
 Run:
 ```sh
-dotnet run Wow.cs
+dotnet run Demo.cs
 ```
 
 ## Minimal Web API
@@ -73,17 +73,17 @@ app.Run();
 ```
 Run:
 ```sh
-dotnet run WowApi.cs
+dotnet run DemoApi.cs
 ```
 
 ## Publish
 ```sh
-dotnet publish app.cs
+dotnet publish Demo.cs
 ```
 
 ## Convert to Project
 ```sh
-dotnet project convert app.cs
+dotnet project convert Demo.cs
 ```
 Generates a `.csproj` with detected directives.
 
